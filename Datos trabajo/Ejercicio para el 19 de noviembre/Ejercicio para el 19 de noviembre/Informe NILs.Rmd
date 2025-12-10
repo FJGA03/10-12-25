@@ -28,7 +28,7 @@ Vamos a trabajar con los datos de @perez2024phenotypic. Este trabajo describe [g
 
 ```{r leer-archivo, echo=FALSE, warning=FALSE}
 library(readxl)
-Data <- read_excel("C:/Users/Fran/Desktop/4º Año Biología/Primer Cuatrimestre/Computación/R Computación/R Markdown/Ejercicio para el 19 de noviembre/12870_2024_5411_MOESM1_ESM.xlsx", skip = 1)
+Data <- read_excel("/cloud/project/Datos trabajo/Ejercicio para el 19 noviembre/Ejercicio_para_el_19_de_noviembre/12870_2024_5411_MOESM1_ESM.xlsx", skip = 1)
 ```
 
 Los datos de este proyecto fueron descargados desde [NILsAdrian](https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-024-05411-y)
